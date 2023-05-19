@@ -28,9 +28,9 @@ const HouseCard = ({ id, type, address, postcode, imageUrl, price, bedroom, bath
                     <p>{bedroom} Bedrooms &nbsp;&amp;&nbsp;{bathroom} Bathrooms. {garden} Garden </p>
                     <h3> Status: {forSale}  </h3>
                     <button onClick={flipButtonText} 
-                    className={styles[whenClicked ? 'book-viewing' : 'viewing-booked']}
+                    className={styles[whenClicked ? 'viewing-booked' : 'book-viewing']}
                     >
-                        {whenClicked ? 'Book Viewing' : 'Viewing Booked'}          
+                        {whenClicked ? 'Viewing Booked' : 'Book Viewing' }          
                     </button>
                     
                  </div>
