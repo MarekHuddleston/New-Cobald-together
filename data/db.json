@@ -89,5 +89,58 @@
       "postcode": "CA1 8RR",
       "phone": ""
     }
+  ],
+  "property": [
+    {
+      "id": 1,
+      "address": "34 OK Place, OK Town",
+      "postcode": "OK1 1OK",
+      "type": "DETACHED",
+      "price": 100000,
+      "bedroom": 3,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 1,
+      "forSale": "SOLD",
+      "buyerId": 3
+    },
+    {
+      "id": 2,
+      "address": "Somewhere House, Some Street, Some City",
+      "postcode": "SO1 2ME",
+      "type": "APARTMENT",
+      "price": 200000,
+      "bedroom": 1,
+      "bathroom": 1,
+      "garden": 0,
+      "sellerId": 1,
+      "forSale": "SOLD",
+      "buyerId": 3
+    },
+    {
+      "address": "2 Welsh Street, Ebbw Vale",
+      "postcode": "TR1 1GA",
+      "type": "DETACHED",
+      "price": 125000,
+      "bedroom": 1,
+      "bathroom": 1,
+      "garden": 1,
+      "sellerId": 3,
+      "forSale": "FOR SALE",
+      "id": 3
+    },
+    {
+      "address": "8 Hilltop, Ebbw Vale",
+      "postcode": "EB1 2VA",
+      "type": "DETACHED",
+      "price": 99000,
+      "bedroom": 3,
+      "bathroom": 3,
+      "garden": 1,
+      "sellerId": 4,
+      "forSale": "SOLD",
+      "id": 4
+    }
   ]
+
 }

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Properties from './components/Properties/Properties';
 import SellerForm from './components/Sellerform';
 import BuyerForm from './components/Buyerform';
 import LandingPage from './components/LandingPage';
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
         <main>
           <Routes>
+            <Route path="/Properties" element={<Properties />} />
             <Route path="/seller" element={<SellerForm />} />
             <Route path="/buyer" element={<BuyerForm />} />
             <Route path="/LandingPage" element={<LandingPage />}/>
