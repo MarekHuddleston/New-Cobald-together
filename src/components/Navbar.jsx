@@ -12,7 +12,10 @@ export default function Navbar() {
                     <Link to ="/buyer">Buyer</Link>
                 </li>
                 <li>
-                    <Link to ="/seller">Seller</Link>
+                    <Link to ="/seller">Add Seller</Link>
+                </li>
+                <li>
+                    <Link to ="/allseller">All Sellers</Link>
                 </li>
                 <li>
                     <Link to ="/LandingPage">Login</Link>
